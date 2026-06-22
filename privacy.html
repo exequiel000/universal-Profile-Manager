@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Política de privacidad - Universal Profile Manager</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: sans-serif; max-width: 700px; margin: 60px auto; padding: 0 20px; line-height: 1.6; background:#081421; color:#e8eef5; }
+  h1, h2 { color: #008CFF; }
+  a { color: #4FA8FF; }
+</style>
+</head>
+<body>
+  <h1>Política de privacidad</h1>
+  <p>Última actualización: 2026</p>
+
+  <h2>Qué datos maneja la aplicación</h2>
+  <p>
+    Universal Profile Manager guarda localmente, en tu propia computadora, los perfiles
+    que vos cargás manualmente (nombre de servicio, usuario, email y notas), cifrados con
+    una contraseña maestra que elegís al instalar la app. Ningún dato se transmite a
+    servidores propios del desarrollador.
+  </p>
+
+  <h2>Uso de inicio de sesión con Google</h2>
+  <p>
+    Si elegís vincular tu cuenta de Google, la aplicación solicita exclusivamente acceso
+    a tu nombre y dirección de correo electrónico (scopes <code>openid</code> y
+    <code>userinfo.email</code>), únicamente para identificar la cuenta vinculada dentro
+    de la aplicación. La aplicación no accede a Gmail, Drive, Calendar ni a ningún otro
+    servicio de Google.
+  </p>
+  <p>
+    El token de acceso obtenido se cifra localmente con tu contraseña maestra y se guarda
+    únicamente en tu computadora. Nunca se envía a ningún servidor de terceros.
+  </p>
+
+  <h2>Uso de inicio de sesión con GitHub</h2>
+  <p>
+    Si elegís vincular tu cuenta de GitHub, la aplicación utiliza el flujo oficial de
+    GitHub (Device Flow) para obtener tu nombre de usuario y correo público. El token
+    obtenido se cifra localmente de la misma forma que el de Google.
+  </p>
+
+  <h2>Qué NO hace la aplicación</h2>
+  <ul>
+    <li>No envía tus datos a ningún servidor propio del desarrollador.</li>
+    <li>No comparte tus datos con terceros.</li>
+    <li>No accede a más información de la que vos autorizás explícitamente en cada inicio de sesión.</li>
+  </ul>
+
+  <h2>Eliminar tus datos</h2>
+  <p>
+    Podés eliminar todos tus datos en cualquier momento borrando los archivos
+    <code>profiles.db</code>, <code>vault.salt</code> y <code>vault.check</code> de la
+    carpeta donde instalaste la aplicación, o desvinculando tu cuenta desde el panel
+    "Cuentas" dentro de la app.
+  </p>
+
+  <h2>Contacto</h2>
+  <p>
+    Para consultas sobre esta política de privacidad, abrí un issue en el
+    <a href="https://github.com/TU_USUARIO/universal-profile-manager">repositorio del proyecto</a>.
+  </p>
+</body>
+</html>
